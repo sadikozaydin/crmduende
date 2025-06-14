@@ -1,5 +1,62 @@
-# Readme for worksuite
-### Plugins used in the app
+# Worksuite CRM
+
+This repository contains the source code of Worksuite CRM, a Laravel based application.
+
+## System Requirements
+
+- PHP >= 8.1 and [Composer](https://getcomposer.org/)
+- Node.js (version 16 or higher) and npm
+- MySQL or any database supported by Laravel
+
+## Installation
+
+1. Clone the repository and install PHP dependencies:
+   ```bash
+   composer install
+   ```
+2. Install JavaScript dependencies:
+   ```bash
+   npm install
+   ```
+3. Copy the example environment file and adjust your database credentials:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+4. Run database migrations and seed the initial data:
+   ```bash
+   php artisan migrate --seed
+   ```
+5. Compile front‑end assets:
+   ```bash
+   npm run build
+   ```
+6. Start the application locally:
+   ```bash
+   php artisan serve
+   ```
+
+### Example `.env`
+
+```ini
+APP_NAME=Worksuite
+APP_ENV=local
+APP_URL=http://localhost
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=worksuite
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+## Basic Usage
+
+- Visit `http://localhost:8000` in your browser when running with `php artisan serve`.
+- Use standard Artisan commands for maintenance and updates.
+
+## Plugins used in the app
 
 <ol>
     <li>
