@@ -1,6 +1,6 @@
-# Worksuite CRM
+# DuendeHealth CRM
 
-This repository contains the source code of Worksuite CRM, a Laravel based application.
+This repository contains the source code of DuendeHealth CRM, a Laravel based application.
 
 ## System Requirements
 
@@ -39,14 +39,14 @@ This repository contains the source code of Worksuite CRM, a Laravel based appli
 ### Example `.env`
 
 ```ini
-APP_NAME=Worksuite
+APP_NAME=DuendeHealth
 APP_ENV=local
 APP_URL=http://localhost
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=worksuite
+DB_DATABASE=duendehealth
 DB_USERNAME=root
 DB_PASSWORD=
 ```
