@@ -925,7 +925,7 @@ if (!function_exists('isWorksuiteSaas')) {
 
     function isWorksuiteSaas()
     {
-        return strtolower(config('app.app_name')) === 'worksuite-saas';
+        return strtolower(config('app.app_name')) === 'duendehealth-saas';
     }
 
 }
@@ -934,7 +934,7 @@ if (!function_exists('isWorksuite')) {
 
     function isWorksuite()
     {
-        return strtolower(config('app.app_name')) === 'worksuite';
+        return strtolower(config('app.app_name')) === 'duendehealth';
     }
 
 }
@@ -1009,7 +1009,7 @@ if (!function_exists('getDomain')) {
     function getDomain($host = false)
     {
         if (!$host) {
-            $host = $_SERVER['SERVER_NAME'] ?? 'worksuite-saas.test';
+            $host = $_SERVER['SERVER_NAME'] ?? 'duendehealth-saas.test';
         }
 
         $shortDomain = config('app.short_domain_name');
