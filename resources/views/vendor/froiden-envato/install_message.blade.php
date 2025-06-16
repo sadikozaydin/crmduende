@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Worksuite Not installed</title>
+    <title>DuendeHealth Not installed</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -61,7 +61,7 @@ $requirements = [
                 </div>
                 <div class="flex-1">
                     <h3 class="text-lg font-semibold text-red-700 mb-1">
-                        Worksuite Installation Required
+                        DuendeHealth Installation Required
                     </h3>
                     <p class="text-red-600">
                         The application needs to be installed before you can use it. Please proceed to the installer to complete the setup.

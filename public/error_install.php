@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Worksuite Not installed</title>
+    <title>DuendeHealth Not installed</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 

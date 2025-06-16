@@ -119,7 +119,7 @@
         });
 
         beamsClient.start()
-        .then(() => beamsClient.addDeviceInterest('Worksuite'))
+        .then(() => beamsClient.addDeviceInterest('DuendeHealth'))
         .then(() => beamsClient.setUserId(currentUserId, beamsTokenProvider))
         .then(() => console.log('Successfully registered and subscribed!'))
         .catch(console.error);

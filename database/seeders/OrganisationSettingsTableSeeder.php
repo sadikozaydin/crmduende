@@ -20,7 +20,7 @@ class OrganisationSettingsTableSeeder extends Seeder
     {
         $defaultDriver = config('session.driver') == 'database' ? 'database' : 'file';
 
-        $appName = 'Worksuite';
+        $appName = 'DuendeHealth';
 
         $globalSetting = new GlobalSetting();
         $globalSetting->global_app_name = $appName;

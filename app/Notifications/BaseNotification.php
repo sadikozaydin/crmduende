@@ -65,7 +65,7 @@ class BaseNotification extends Notification implements ShouldQueue
         Config::set('app.logo', $globalSetting->masked_logo_url);
         Config::set('app.name', $companyName);
 
-        // If the application is Worksuite, return the mail message with SMTP settings
+        // If the application is DuendeHealth, return the mail message with SMTP settings
         if (isWorksuite()) {
             return $build->from($companyEmail, $companyName);
         }

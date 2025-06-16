@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Worksuite - Verify Purchase</title>
+    <title>DuendeHealth - Verify Purchase</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50">
@@ -9,7 +9,7 @@
         <div class="flex flex-col items-center mb-8">
             <div class="flex items-center">
                 <img src="{{ asset('img/worksuite-logo.png') }}" class="h-12 w-auto" alt="Tabletrack Logo"/>
-                <h1 class="text-3xl font-bold ml-3 text-gray-800">Worksuite</h1>
+                <h1 class="text-3xl font-bold ml-3 text-gray-800">DuendeHealth</h1>
             </div>
 
         </div>

@@ -92,7 +92,7 @@ class LeadSeeder extends Seeder
         $lead->pipeline_stage_id = $randomStageId;
         $lead->company_id = $companyId;
         $lead->agent_id = $randomLeadId;
-        $lead->name = 'Buying Worksuite';
+        $lead->name = 'Buying DuendeHealth';
         $lead->value = rand(10000, 99999);
         $lead->currency_id = $currencyID;
         $lead->next_follow_up = 'yes';
