@@ -18,11 +18,11 @@ return [
     // This will determine if the application worksuite or worksuite-saas
     'app_name' => 'worksuite',
 
-    'name' => 'Worksuite',
+    'name' => 'DuendeHealth',
 
 
     // We will use this for email copyright message
-    'global_app_name' => 'Worksuite',
+    'global_app_name' => 'DuendeHealth',
 
     /*
     |--------------------------------------------------------------------------
