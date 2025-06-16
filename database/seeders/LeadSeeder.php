@@ -76,7 +76,7 @@ class LeadSeeder extends Seeder
         foreach (range(0, 10) as $number) {
             $leadContact = new Lead();
             $leadContact->company_id = $companyId;
-            $leadContact->website = 'https://worksuite.biz';
+            $leadContact->website = 'https://duendehealth.biz';
             $leadContact->address = $faker->address;
             $leadContact->client_name = $faker->name;
             $leadContact->company_name = $faker->company;

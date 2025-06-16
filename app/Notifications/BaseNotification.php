@@ -159,3 +159,4 @@ class BaseNotification extends Notification implements ShouldQueue
     }
 
 }
+ 
