@@ -16,7 +16,7 @@ return [
     */
 
     // This will determine if the application worksuite or worksuite-saas
-    'app_name' => 'worksuite',
+    'app_name' => 'DuendeHealth',
 
     'name' => 'DuendeHealth',
 
